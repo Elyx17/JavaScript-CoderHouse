@@ -1,0 +1,171 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: whitesmoke;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  min-height: 190px;
+  min-width: 25%;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 15px 15px;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 0px 14px 11px rgba(0, 0, 0, 0.79);
+}
+
+.card p:hover {
+  cursor: pointer;
+}
+
+#negroni {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url(../img/negroni.jpg);
+}
+
+#mojito {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url("../img/mojito.jpg");
+}
+
+#bramble {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url("../img/bramble.jpg");
+}
+
+#newyorksour {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url("../img/newyorksour.jpg");
+}
+
+#moscowmule {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url("../img/moscowmule.jpg");
+}
+
+#espressomartini {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.517),
+      rgba(86, 14, 68, 0.37)
+    ),
+    url("../img/espressomartini.jpg");
+}
+
+
+
+.card__textos {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  color: #fff;
+  border: #000, #000;
+}
+
+.menu__banner {
+    width: 60%;
+    margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.menu__banner ul {
+  list-style: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.menu__banner ul li {
+  margin: 15px;
+  font-weight: bold;
+}
+
+.menu__banner button {
+  background: #ffd600;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+#fondobanermenu {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.894),
+      rgba(86, 14, 68, 0.27)
+    );
+}
+
+.banerboton:hover {
+  -webkit-animation: blink-2 0.9s both;
+  animation: blink-2 0.9s both;
+}
+
+.titulos{
+    font-size: 2rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.indicaciones{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
