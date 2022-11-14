@@ -7,6 +7,10 @@
 body{
     background: whitesmoke;
 }
+
+.titulos{
+  background-color: darkred;
+}
 .menu {
   width: 100%;
   display: flex;
