@@ -1,11 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
     text-decoration: none;
 }
 body{
-    background: whitesmoke;
+    background: #ffd0d0;
 }
 
 .titulos{
@@ -163,9 +161,8 @@ body{
 }
 
 .titulos{
-    font-size: 2rem;
-    margin: 20px;
-    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .indicaciones{
@@ -174,11 +171,14 @@ body{
     text-align: center;
 }
 
+table{
+  margin: auto;
+}
 .error-prendas {
   padding: 20px;
   text-align: center;
   background-color: orangered;
-  color: whitesmoke;
+  color: #f6bebe;
   border-radius: 12px;
 }
 
