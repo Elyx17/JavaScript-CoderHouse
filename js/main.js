@@ -1,4 +1,4 @@
-
+let hola = []
 const tbody = document.querySelector('tbody')
 
 const carrito = []
