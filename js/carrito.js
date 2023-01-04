@@ -1,4 +1,5 @@
-const productosEnCarrito = JSON.parse(localStorage.getItem("ProductosDelCarrito"))
+let productosEnCarrito = localStorage.getItem("ProductosDelCarrito")
+productosEnCarrito = JSON.parse(productosEnCarrito)
 
 const contenedorCarritoVacio = document.querySelector("#carrito-vacio")
 const contenedorCarritoProductos = document.querySelector("#carrito-productos")
@@ -9,7 +10,7 @@ let botonesEliminar = document.querySelectorAll(".carritoProductoEliminar")
 function cargarProductosCarrito() {
     if (productosEnCarrito) {
 
-        productosEnCarrito =
+        
 
         contenedorCarritoVacio.classList.add("disabled")
         contenedorCarritoProductos.classList.remove("disabled")
@@ -76,5 +77,5 @@ function eliminarDelCarrito(e) {
     productosEnCarrito.splice(index, 1)
     cargarProductosCarrito()
 
-    localStorage.setItem("ProductosDelCarrito", JSON)
+    localStorage.setItem("ProductosDelCarrito", JSON.stringify(productosEnCarrito))
 }
